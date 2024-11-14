@@ -1,11 +1,11 @@
 name: Validate/Publish to W3C TR space
 
 on:
-  push:
-    branches: [ main ]
-    paths: [ .github/**, document/** ]
-  pull_request:
-    paths: [ .github/**, document/** ]
+  # push:
+  #   branches: [ main ]
+  #   paths: [ .github/**, document/** ]
+  # pull_request:
+  #   paths: [ .github/**, document/** ]
 
   # Allows you to run this workflow manually from the Actions tab, gh CLI tool,
   # or REST API. THe w3c-status options correspond to the valid options for
