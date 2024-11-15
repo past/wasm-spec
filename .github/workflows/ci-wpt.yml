@@ -27,4 +27,4 @@ jobs:
       - name: Build interpreter
         run: cd interpreter && opam exec make
       - name: Convert WAST tests to WPT
-        run: test/build.py --html out/
+        run: test/build.py --dont-recompile --html out/
