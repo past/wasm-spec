@@ -1,4 +1,4 @@
-;; Load i32 data with different offset/align arguments.
+;; Load i32 data with different offset/align arguments
 
 (module
   (memory 1)
